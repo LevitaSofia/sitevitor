@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaomi - Redmi Note, POCO e Mi com preço justo | Benalia Smart Fone</title>
+    <meta name="description" content="Compre smartphones Xiaomi Redmi Note 13, POCO X6 e Mi com nota fiscal e garantia. Entrega rápida em Ribeirão Preto e todo Brasil. Parcelamento no cartão e PIX com desconto.">
+    <meta name="keywords" content="Xiaomi, Redmi Note, POCO, smartphone Xiaomi, Xiaomi preço, comprar Xiaomi Ribeirão Preto, Redmi Note 13">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Xiaomi - Smartphones Xiaomi com preço justo | Benalia Smart Fone">
+    <meta property="og:description" content="Smartphones Xiaomi com preço justo, garantia e entrega rápida.">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Xiaomi Smartphones",
+      "description": "Coleção de smartphones Xiaomi com garantia e preço justo",
+      "url": "https://benaliasmartfone.com.br/xiaomi",
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Xiaomi Collection"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- WhatsApp Fixed Button -->
+    <div class="whatsapp-fixed">
+        <a href="https://wa.me/5516992691445" target="_blank" aria-label="Chamar no WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <a href="index.html"><h2>Benalia Smart Fone</h2></a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Início</a></li>
+                    <li><a href="#produtos" class="nav__link">Produtos</a></li>
+                    <li><a href="ofertas.html" class="nav__link">Ofertas</a></li>
+                    <li><a href="sobre.html" class="nav__link">Sobre</a></li>
+                    <li><a href="contato.html" class="nav__link">Contato</a></li>
+                    <li><a href="faq.html" class="nav__link">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+        <div class="container">
+            <ul class="breadcrumb__list">
+                <li class="breadcrumb__item">
+                    <a href="index.html" class="breadcrumb__link">Início</a>
+                </li>
+                <li class="breadcrumb__separator">/</li>
+                <li class="breadcrumb__item">Xiaomi</li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-header__title">Xiaomi</h1>
+            <p class="page-header__description">
+                Descubra os smartphones Xiaomi com o melhor custo-benefício do mercado. Redmi Note, POCO e Mi com garantia e preço justo.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Search and Filters -->
+        <section class="filters-section section">
+            <div class="container">
+                <div class="search__container">
+                    <input type="text" id="search-input" class="form__input" placeholder="Buscar por modelo, armazenamento...">
+                    <i class="fas fa-search search__icon"></i>
+                </div>
+                
+                <div class="filters">
+                    <button class="filter__button active" data-condition="all">Todos</button>
+                    <button class="filter__button" data-condition="novo">Novos</button>
+                    <button class="filter__button" data-condition="seminovo">Seminovos</button>
+                    <button class="filter__button" data-price="under-1500">Até R$ 1.500</button>
+                    <button class="filter__button" data-price="1500-2500">R$ 1.500 - R$ 2.500</button>
+                    <button class="filter__button" data-price="over-2500">Acima de R$ 2.500</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Grid -->
+        <section class="products section" id="produtos">
+            <div class="container">
+                <div class="products__header">
+                    <h2 class="section__title">Smartphones Xiaomi</h2>
+                    <div class="products__sort">
+                        <select id="sort-select" class="form__input">
+                            <option value="name">Ordenar por nome</option>
+                            <option value="price-low">Menor preço</option>
+                            <option value="price-high">Maior preço</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="products__container grid" id="products-container">
+                    <!-- Products will be loaded via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Brand Info -->
+        <section class="brand-info section">
+            <div class="container">
+                <div class="brand-info__container grid">
+                    <div class="brand-info__content">
+                        <h2 class="brand-info__title">Por que escolher Xiaomi?</h2>
+                        <div class="brand-info__features">
+                            <div class="feature">
+                                <i class="fas fa-dollar-sign feature__icon"></i>
+                                <div class="feature__content">
+                                    <h3 class="feature__title">Melhor Custo-Benefício</h3>
+                                    <p class="feature__description">Tecnologia premium por um preço acessível</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-rocket feature__icon"></i>
+                                <div class="feature__content">
+                                    <h3 class="feature__title">Performance Superior</h3>
+                                    <p class="feature__description">Processadores Snapdragon e MediaTek de última geração</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-bolt feature__icon"></i>
+                                <div class="feature__content">
+                                    <h3 class="feature__title">Carregamento Turbo</h3>
+                                    <p class="feature__description">Carregamento ultrarrápido de 67W e 120W</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-gamepad feature__icon"></i>
+                                <div class="feature__content">
+                                    <h3 class="feature__title">Ideal para Games</h3>
+                                    <p class="feature__description">POCO Gaming com refrigeração líquida</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brand-info__image">
+                        <img src="assets/images/xiaomi-features.png" alt="Recursos Xiaomi">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Models -->
+        <section class="popular section">
+            <div class="container">
+                <h2 class="section__title">Modelos Mais Populares</h2>
+                <div class="popular__container grid">
+                    <div class="popular__card">
+                        <div class="popular__img">
+                            <img src="assets/images/xiaomi-note13.jpg" alt="Xiaomi Redmi Note 13">
+                        </div>
+                        <div class="popular__content">
+                            <h3 class="popular__title">Redmi Note 13</h3>
+                            <p class="popular__description">O smartphone com melhor custo-benefício da categoria</p>
+                            <div class="popular__specs">
+                                <span><i class="fas fa-memory"></i> 256GB</span>
+                                <span><i class="fas fa-camera"></i> 108MP</span>
+                                <span><i class="fas fa-battery-full"></i> 5000mAh</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="popular__card">
+                        <div class="popular__img">
+                            <img src="assets/images/poco-x6.jpg" alt="POCO X6">
+                        </div>
+                        <div class="popular__content">
+                            <h3 class="popular__title">POCO X6</h3>
+                            <p class="popular__description">Performance gamer com refrigeração líquida</p>
+                            <div class="popular__specs">
+                                <span><i class="fas fa-memory"></i> 256GB</span>
+                                <span><i class="fas fa-camera"></i> 64MP</span>
+                                <span><i class="fas fa-battery-full"></i> 5100mAh</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Xiaomi Series -->
+        <section class="series section">
+            <div class="container">
+                <h2 class="section__title">Conheça as Séries Xiaomi</h2>
+                <div class="series__container grid">
+                    <div class="series__card">
+                        <div class="series__header">
+                            <i class="fas fa-star series__icon"></i>
+                            <h3 class="series__title">Redmi Note</h3>
+                        </div>
+                        <p class="series__description">
+                            A série mais popular com excelente custo-benefício, ideal para uso diário com câmeras de qualidade e bateria duradoura.
+                        </p>
+                        <ul class="series__features">
+                            <li><i class="fas fa-check"></i> Câmeras de até 108MP</li>
+                            <li><i class="fas fa-check"></i> Bateria de 5000mAh</li>
+                            <li><i class="fas fa-check"></i> Tela AMOLED</li>
+                            <li><i class="fas fa-check"></i> Carregamento rápido</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="series__card">
+                        <div class="series__header">
+                            <i class="fas fa-gamepad series__icon"></i>
+                            <h3 class="series__title">POCO</h3>
+                        </div>
+                        <p class="series__description">
+                            Linha gamer com processadores poderosos, refrigeração líquida e carregamento ultrarrápido para máxima performance.
+                        </p>
+                        <ul class="series__features">
+                            <li><i class="fas fa-check"></i> Snapdragon flagship</li>
+                            <li><i class="fas fa-check"></i> Refrigeração líquida</li>
+                            <li><i class="fas fa-check"></i> Carregamento 120W</li>
+                            <li><i class="fas fa-check"></i> Tela 120Hz</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="series__card">
+                        <div class="series__header">
+                            <i class="fas fa-crown series__icon"></i>
+                            <h3 class="series__title">Mi</h3>
+                        </div>
+                        <p class="series__description">
+                            Série premium com design elegante, câmeras profissionais e recursos avançados para usuários exigentes.
+                        </p>
+                        <ul class="series__features">
+                            <li><i class="fas fa-check"></i> Câmeras Leica</li>
+                            <li><i class="fas fa-check"></i> Design premium</li>
+                            <li><i class="fas fa-check"></i> Carregamento wireless</li>
+                            <li><i class="fas fa-check"></i> 5G avançado</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta section">
+            <div class="container">
+                <div class="cta__container">
+                    <h2 class="cta__title">Encontrou o Xiaomi ideal?</h2>
+                    <p class="cta__description">
+                        Fale conosco no WhatsApp e garanta já o seu com o melhor preço e condições especiais
+                    </p>
+                    <a href="https://wa.me/5516992691445" class="button cta__button" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        Chamar no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="container">
+            <div class="footer__container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Benalia Smart Fone</h3>
+                    <p class="footer__description">
+                        Smartphones multimarcas com preço justo, garantia e entrega rápida para todo o Brasil.
+                    </p>
+                    <div class="footer__social">
+                        <a href="https://wa.me/5516992691445" class="footer__social-link" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="footer__social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer__social-link" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__content">
+                    <h3 class="footer__title">Navegação</h3>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Início</a></li>
+                        <li><a href="samsung.html" class="footer__link">Samsung</a></li>
+                        <li><a href="xiaomi.html" class="footer__link">Xiaomi</a></li>
+                        <li><a href="apple.html" class="footer__link">Apple</a></li>
+                        <li><a href="motorola.html" class="footer__link">Motorola</a></li>
+                        <li><a href="ofertas.html" class="footer__link">Ofertas</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__content">
+                    <h3 class="footer__title">Suporte</h3>
+                    <ul class="footer__links">
+                        <li><a href="sobre.html" class="footer__link">Sobre nós</a></li>
+                        <li><a href="contato.html" class="footer__link">Contato</a></li>
+                        <li><a href="faq.html" class="footer__link">FAQ</a></li>
+                        <li><a href="garantia.html" class="footer__link">Garantia</a></li>
+                        <li><a href="privacidade.html" class="footer__link">Privacidade</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__content">
+                    <h3 class="footer__title">Contato</h3>
+                    <ul class="footer__data">
+                        <li class="footer__information">
+                            <i class="fab fa-whatsapp footer__icon"></i>
+                            <a href="https://wa.me/5516992691445" target="_blank">(16) 99269-1445</a>
+                        </li>
+                        <li class="footer__information">
+                            <i class="fas fa-phone footer__icon"></i>
+                            (16) 99269-1445
+                        </li>
+                        <li class="footer__information">
+                            <i class="fas fa-map-marker-alt footer__icon"></i>
+                            Ribeirão Preto - SP
+                        </li>
+                        <li class="footer__information">
+                            <i class="fas fa-clock footer__icon"></i>
+                            Seg a Sáb: 8h às 18h
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__copy">
+                <p>&copy; 2024 Benalia Smart Fone. Todos os direitos reservados.</p>
+                <div class="footer__copy-links">
+                    <a href="termos.html">Termos de Uso</a>
+                    <a href="privacidade.html">Política de Privacidade</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="fas fa-angle-up scrolltop__icon"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Load Xiaomi products when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            const xiaomiProducts = getProductsByBrand('Xiaomi');
+            renderProducts(xiaomiProducts, 'products-container');
+            
+            // Sort functionality
+            const sortSelect = document.getElementById('sort-select');
+            sortSelect.addEventListener('change', function() {
+                const sortBy = this.value;
+                const currentProducts = getProductsByBrand('Xiaomi');
+                const sortedProducts = sortProducts(currentProducts, sortBy);
+                renderProducts(sortedProducts, 'products-container');
+            });
+
+            // Filter functionality specific to Xiaomi
+            const filterButtons = document.querySelectorAll('.filter__button');
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+
+                    const condition = this.dataset.condition || 'all';
+                    const priceRange = this.dataset.price || 'all';
+
+                    let filteredProducts = filterProducts('xiaomi', condition, priceRange);
+                    renderProducts(filteredProducts, 'products-container');
+                });
+            });
+        });
+
+        // Add styles for new sections
+        const additionalStyles = `
+            .series {
+                background-color: var(--body-color);
+            }
+            
+            .series__container {
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 2rem;
+            }
+            
+            .series__card {
+                background-color: var(--container-color);
+                border-radius: 1rem;
+                padding: 2rem;
+                border: 1px solid var(--border-color);
+                transition: all 0.3s ease;
+            }
+            
+            .series__card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 40px var(--shadow-color);
+            }
+            
+            .series__header {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                margin-bottom: var(--mb-1);
+            }
+            
+            .series__icon {
+                width: 50px;
+                height: 50px;
+                background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+                color: white;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.5rem;
+            }
+            
+            .series__title {
+                font-size: var(--h3-font-size);
+                color: var(--text-color);
+            }
+            
+            .series__description {
+                color: var(--text-color-light);
+                margin-bottom: var(--mb-1-5);
+                line-height: 1.6;
+            }
+            
+            .series__features {
+                list-style: none;
+                padding: 0;
+            }
+            
+            .series__features li {
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+                margin-bottom: 0.75rem;
+                color: var(--text-color);
+            }
+            
+            .series__features i {
+                color: var(--accent-color);
+                font-size: 0.875rem;
+            }
+        `;
+        
+        const styleSheet = document.createElement('style');
+        styleSheet.textContent = additionalStyles;
+        document.head.appendChild(styleSheet);
+    </script>
+</body>
+</html>

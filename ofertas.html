@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas - Smartphones com descontos especiais | Benalia Smart Fone</title>
+    <meta name="description" content="Ofertas especiais em smartphones Samsung, Xiaomi, Apple e Motorola. Promoções da semana, cupons de desconto e combos imperdíveis com entrega rápida.">
+    <meta name="keywords" content="ofertas smartphone, promoção celular, desconto iPhone, Samsung oferta, Xiaomi barato, smartphone promoção Ribeirão Preto">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ofertas Especiais - Smartphones com desconto | Benalia Smart Fone">
+    <meta property="og:description" content="Ofertas imperdíveis em smartphones com preço justo e entrega rápida.">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Ofertas Especiais Smartphones",
+      "description": "Ofertas e promoções especiais em smartphones",
+      "url": "https://benaliasmartfone.com.br/ofertas"
+    }
+    </script>
+</head>
+<body>
+    <!-- WhatsApp Fixed Button -->
+    <div class="whatsapp-fixed">
+        <a href="https://wa.me/5516992691445" target="_blank" aria-label="Chamar no WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <a href="index.html"><h2>Benalia Smart Fone</h2></a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Início</a></li>
+                    <li><a href="index.html#produtos" class="nav__link">Produtos</a></li>
+                    <li><a href="ofertas.html" class="nav__link">Ofertas</a></li>
+                    <li><a href="sobre.html" class="nav__link">Sobre</a></li>
+                    <li><a href="contato.html" class="nav__link">Contato</a></li>
+                    <li><a href="faq.html" class="nav__link">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+        <div class="container">
+            <ul class="breadcrumb__list">
+                <li class="breadcrumb__item">
+                    <a href="index.html" class="breadcrumb__link">Início</a>
+                </li>
+                <li class="breadcrumb__separator">/</li>
+                <li class="breadcrumb__item">Ofertas</li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-header__title">Ofertas Especiais</h1>
+            <p class="page-header__description">
+                Não perca! As melhores ofertas em smartphones com preços imperdíveis e condições especiais.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Flash Sale -->
+        <section class="flash-sale section">
+            <div class="container">
+                <div class="flash-sale__header">
+                    <h2 class="flash-sale__title">
+                        <i class="fas fa-bolt"></i>
+                        Flash Sale - Oferta Relâmpago
+                    </h2>
+                    <div class="flash-sale__timer" id="flash-timer">
+                        <div class="timer__item">
+                            <span class="timer__number" id="hours">12</span>
+                            <span class="timer__label">Horas</span>
+                        </div>
+                        <div class="timer__item">
+                            <span class="timer__number" id="minutes">45</span>
+                            <span class="timer__label">Min</span>
+                        </div>
+                        <div class="timer__item">
+                            <span class="timer__number" id="seconds">30</span>
+                            <span class="timer__label">Seg</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flash-sale__products grid">
+                    <div class="product__card flash-product">
+                        <div class="product__badges">
+                            <span class="product__badge flash">Flash Sale</span>
+                            <span class="product__discount">-25%</span>
+                        </div>
+                        <div class="product__img">
+                            <img src="assets/images/samsung-a15.jpg" alt="Samsung Galaxy A15">
+                        </div>
+                        <h3 class="product__title">Samsung Galaxy A15</h3>
+                        <p class="product__specs">128GB • Novo</p>
+                        <div class="product__price">
+                            <span class="product__price-old">R$ 1.299</span>
+                            <span class="product__price-current">R$ 974</span>
+                            <p class="product__price-installment">ou 12x de R$ 94,90</p>
+                        </div>
+                        <button class="button product__button" onclick="contactWhatsApp('Samsung Galaxy A15', '128GB', 974)">
+                            <i class="fab fa-whatsapp"></i>
+                            Chamar no WhatsApp
+                        </button>
+                    </div>
+                    
+                    <div class="product__card flash-product">
+                        <div class="product__badges">
+                            <span class="product__badge flash">Flash Sale</span>
+                            <span class="product__discount">-20%</span>
+                        </div>
+                        <div class="product__img">
+                            <img src="assets/images/xiaomi-note13.jpg" alt="Xiaomi Redmi Note 13">
+                        </div>
+                        <h3 class="product__title">Xiaomi Redmi Note 13</h3>
+                        <p class="product__specs">256GB • Novo</p>
+                        <div class="product__price">
+                            <span class="product__price-old">R$ 1.699</span>
+                            <span class="product__price-current">R$ 1.359</span>
+                            <p class="product__price-installment">ou 12x de R$ 132,90</p>
+                        </div>
+                        <button class="button product__button" onclick="contactWhatsApp('Xiaomi Redmi Note 13', '256GB', 1359)">
+                            <i class="fab fa-whatsapp"></i>
+                            Chamar no WhatsApp
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Weekly Deals -->
+        <section class="weekly-deals section">
+            <div class="container">
+                <h2 class="section__title">Ofertas da Semana</h2>
+                <div class="deals__container grid">
+                    <div class="deal__card">
+                        <div class="deal__header">
+                            <span class="deal__badge">SUPER OFERTA</span>
+                            <span class="deal__discount">15% OFF</span>
+                        </div>
+                        <div class="deal__content">
+                            <h3 class="deal__title">Motorola Moto G84</h3>
+                            <p class="deal__description">256GB • Câmera 50MP • 5000mAh</p>
+                            <div class="deal__price">
+                                <span class="deal__price-old">R$ 1.799</span>
+                                <span class="deal__price-current">R$ 1.529</span>
+                            </div>
+                            <button class="button deal__button" onclick="contactWhatsApp('Motorola Moto G84', '256GB', 1529)">
+                                <i class="fab fa-whatsapp"></i>
+                                Aproveitar Oferta
+                            </button>
+                        </div>
+                        <div class="deal__image">
+                            <img src="assets/images/moto-g84.jpg" alt="Motorola Moto G84">
+                        </div>
+                    </div>
+                    
+                    <div class="deal__card">
+                        <div class="deal__header">
+                            <span class="deal__badge">OPORTUNIDADE</span>
+                            <span class="deal__discount">R$ 500 OFF</span>
+                        </div>
+                        <div class="deal__content">
+                            <h3 class="deal__title">iPhone 12 Seminovo</h3>
+                            <p class="deal__description">128GB • Excelente Estado • Garantia</p>
+                            <div class="deal__price">
+                                <span class="deal__price-old">R$ 2.899</span>
+                                <span class="deal__price-current">R$ 2.399</span>
+                            </div>
+                            <button class="button deal__button" onclick="contactWhatsApp('iPhone 12', '128GB', 2399)">
+                                <i class="fab fa-whatsapp"></i>
+                                Aproveitar Oferta
+                            </button>
+                        </div>
+                        <div class="deal__image">
+                            <img src="assets/images/iphone-12.jpg" alt="iPhone 12">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Combos -->
+        <section class="combos section">
+            <div class="container">
+                <h2 class="section__title">Combos Especiais</h2>
+                <div class="combos__container grid">
+                    <div class="combo__card">
+                        <div class="combo__badge">COMBO COMPLETO</div>
+                        <div class="combo__header">
+                            <h3 class="combo__title">Combo Proteção Total</h3>
+                            <p class="combo__subtitle">Smartphone + Capinha + Película</p>
+                        </div>
+                        <div class="combo__items">
+                            <div class="combo__item">
+                                <img src="assets/images/samsung-a55.jpg" alt="Samsung Galaxy A55">
+                                <span>Samsung Galaxy A55 256GB</span>
+                            </div>
+                            <div class="combo__plus">+</div>
+                            <div class="combo__item">
+                                <img src="assets/images/capinha.jpg" alt="Capinha">
+                                <span>Capinha Anti-impacto</span>
+                            </div>
+                            <div class="combo__plus">+</div>
+                            <div class="combo__item">
+                                <img src="assets/images/pelicula.jpg" alt="Película">
+                                <span>Película 3D</span>
+                            </div>
+                        </div>
+                        <div class="combo__price">
+                            <div class="combo__price-breakdown">
+                                <span>Comprando separado: R$ 2.098</span>
+                            </div>
+                            <div class="combo__price-deal">
+                                <span class="combo__price-current">R$ 1.899</span>
+                                <span class="combo__savings">Economize R$ 199</span>
+                            </div>
+                        </div>
+                        <button class="button combo__button" onclick="contactWhatsApp('Combo Proteção Total - Samsung A55', '256GB + Acessórios', 1899)">
+                            <i class="fab fa-whatsapp"></i>
+                            Quero este Combo
+                        </button>
+                    </div>
+                    
+                    <div class="combo__card">
+                        <div class="combo__badge">COMBO GAMER</div>
+                        <div class="combo__header">
+                            <h3 class="combo__title">Combo Gaming</h3>
+                            <p class="combo__subtitle">Smartphone Gamer + Acessórios</p>
+                        </div>
+                        <div class="combo__items">
+                            <div class="combo__item">
+                                <img src="assets/images/poco-x6.jpg" alt="POCO X6">
+                                <span>POCO X6 256GB</span>
+                            </div>
+                            <div class="combo__plus">+</div>
+                            <div class="combo__item">
+                                <img src="assets/images/cooler.jpg" alt="Cooler">
+                                <span>Cooler Gaming</span>
+                            </div>
+                            <div class="combo__plus">+</div>
+                            <div class="combo__item">
+                                <img src="assets/images/suporte.jpg" alt="Suporte">
+                                <span>Suporte Mesa</span>
+                            </div>
+                        </div>
+                        <div class="combo__price">
+                            <div class="combo__price-breakdown">
+                                <span>Comprando separado: R$ 1.978</span>
+                            </div>
+                            <div class="combo__price-deal">
+                                <span class="combo__price-current">R$ 1.799</span>
+                                <span class="combo__savings">Economize R$ 179</span>
+                            </div>
+                        </div>
+                        <button class="button combo__button" onclick="contactWhatsApp('Combo Gaming - POCO X6', '256GB + Acessórios', 1799)">
+                            <i class="fab fa-whatsapp"></i>
+                            Quero este Combo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cupons -->
+        <section class="coupons section">
+            <div class="container">
+                <h2 class="section__title">Cupons de Desconto</h2>
+                <div class="coupons__container grid">
+                    <div class="coupon__card">
+                        <div class="coupon__header">
+                            <h3 class="coupon__title">PRIMEIRACOMPRA</h3>
+                            <span class="coupon__discount">10% OFF</span>
+                        </div>
+                        <p class="coupon__description">
+                            Desconto de 10% para quem nunca comprou conosco
+                        </p>
+                        <div class="coupon__details">
+                            <span><i class="fas fa-calendar"></i> Válido até 31/12/2024</span>
+                            <span><i class="fas fa-shopping-cart"></i> Compra mínima: R$ 800</span>
+                        </div>
+                        <button class="button coupon__button" onclick="contactWhatsApp('', '', 0, 'Olá! Gostaria de usar o cupom PRIMEIRACOMPRA para ter 10% de desconto.')">
+                            <i class="fab fa-whatsapp"></i>
+                            Usar Cupom
+                        </button>
+                    </div>
+                    
+                    <div class="coupon__card">
+                        <div class="coupon__header">
+                            <h3 class="coupon__title">PIX50</h3>
+                            <span class="coupon__discount">R$ 50 OFF</span>
+                        </div>
+                        <p class="coupon__description">
+                            R$ 50 de desconto pagando no PIX
+                        </p>
+                        <div class="coupon__details">
+                            <span><i class="fas fa-calendar"></i> Válido até 31/12/2024</span>
+                            <span><i class="fas fa-shopping-cart"></i> Compra mínima: R$ 1.200</span>
+                        </div>
+                        <button class="button coupon__button" onclick="contactWhatsApp('', '', 0, 'Olá! Gostaria de usar o cupom PIX50 para ter R$ 50 de desconto pagando no PIX.')">
+                            <i class="fab fa-whatsapp"></i>
+                            Usar Cupom
+                        </button>
+                    </div>
+                    
+                    <div class="coupon__card">
+                        <div class="coupon__header">
+                            <h3 class="coupon__title">SEMIJUROS</h3>
+                            <span class="coupon__discount">0% JUROS</span>
+                        </div>
+                        <p class="coupon__description">
+                            Parcelamento sem juros em até 12x no cartão
+                        </p>
+                        <div class="coupon__details">
+                            <span><i class="fas fa-calendar"></i> Válido até 31/12/2024</span>
+                            <span><i class="fas fa-shopping-cart"></i> Para produtos seminovos</span>
+                        </div>
+                        <button class="button coupon__button" onclick="contactWhatsApp('', '', 0, 'Olá! Gostaria de usar o cupom SEMIJUROS para parcelar sem juros um produto seminovo.')">
+                            <i class="fab fa-whatsapp"></i>
+                            Usar Cupom
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter section">
+            <div class="container">
+                <div class="newsletter__container">
+                    <div class="newsletter__content">
+                        <h2 class="newsletter__title">Não perca nenhuma oferta!</h2>
+                        <p class="newsletter__description">
+                            Seja o primeiro a saber sobre promoções especiais, lançamentos e ofertas exclusivas.
+                        </p>
+                    </div>
+                    <div class="newsletter__action">
+                        <button class="button newsletter__button" onclick="contactWhatsApp('', '', 0, 'Olá! Gostaria de receber ofertas especiais e promoções pelo WhatsApp.')">
+                            <i class="fab fa-whatsapp"></i>
+                            Receber Ofertas no WhatsApp
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta section">
+            <div class="container">
+                <div class="cta__container">
+                    <h2 class="cta__title">Viu alguma oferta interessante?</h2>
+                    <p class="cta__description">
+                        Fale conosco no WhatsApp e garanta já o seu com as melhores condições
+                    </p>
+                    <a href="https://wa.me/5516992691445" class="button cta__button" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        Chamar no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="container">
+            <div class="footer__container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Benalia Smart Fone</h3>
+                    <p class="footer__description">
+                        Smartphones multimarcas com preço justo, garantia e entrega rápida para todo o Brasil.
+                    </p>
+                    <div class="footer__social">
+                        <a href="https://wa.me/5516992691445" class="footer__social-link" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="footer__social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer__social-link" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__content">
+                    <h3 class="footer__title">Navegação</h3>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Início</a></li>
+                        <li><a href="samsung.html" class="footer__link">Samsung</a></li>
+                        <li><a href="xiaomi.html" class="footer__link">Xiaomi</a></li>
+                        <li><a href="apple.html" class="footer__link">Apple</a></li>
+                        <li><a href="motorola.html" class="footer__link">Motorola</a></li>
+                        <li><a href="ofertas.html" class="footer__link">Ofertas</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__content">
+                    <h3 class="footer__title">Suporte</h3>
+                    <ul class="footer__links">
+                        <li><a href="sobre.html" class="footer__link">Sobre nós</a></li>
+                        <li><a href="contato.html" class="footer__link">Contato</a></li>
+                        <li><a href="faq.html" class="footer__link">FAQ</a></li>
+                        <li><a href="garantia.html" class="footer__link">Garantia</a></li>
+                        <li><a href="privacidade.html" class="footer__link">Privacidade</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__content">
+                    <h3 class="footer__title">Contato</h3>
+                    <ul class="footer__data">
+                        <li class="footer__information">
+                            <i class="fab fa-whatsapp footer__icon"></i>
+                            <a href="https://wa.me/5516992691445" target="_blank">(16) 99269-1445</a>
+                        </li>
+                        <li class="footer__information">
+                            <i class="fas fa-phone footer__icon"></i>
+                            (16) 99269-1445
+                        </li>
+                        <li class="footer__information">
+                            <i class="fas fa-map-marker-alt footer__icon"></i>
+                            Ribeirão Preto - SP
+                        </li>
+                        <li class="footer__information">
+                            <i class="fas fa-clock footer__icon"></i>
+                            Seg a Sáb: 8h às 18h
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__copy">
+                <p>&copy; 2024 Benalia Smart Fone. Todos os direitos reservados.</p>
+                <div class="footer__copy-links">
+                    <a href="termos.html">Termos de Uso</a>
+                    <a href="privacidade.html">Política de Privacidade</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="fas fa-angle-up scrolltop__icon"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Flash Sale Timer
+        function startFlashTimer() {
+            const timer = {
+                hours: 12,
+                minutes: 45,
+                seconds: 30
+            };
+
+            function updateTimer() {
+                timer.seconds--;
+                
+                if (timer.seconds < 0) {
+                    timer.seconds = 59;
+                    timer.minutes--;
+                }
+                
+                if (timer.minutes < 0) {
+                    timer.minutes = 59;
+                    timer.hours--;
+                }
+                
+                if (timer.hours < 0) {
+                    timer.hours = 23;
+                    timer.minutes = 59;
+                    timer.seconds = 59;
+                }
+
+                document.getElementById('hours').textContent = timer.hours.toString().padStart(2, '0');
+                document.getElementById('minutes').textContent = timer.minutes.toString().padStart(2, '0');
+                document.getElementById('seconds').textContent = timer.seconds.toString().padStart(2, '0');
+            }
+
+            setInterval(updateTimer, 1000);
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            startFlashTimer();
+        });
+
+        // Enhanced WhatsApp contact function for offers
+        function contactWhatsApp(productName = '', storage = '', price = 0, customMessage = '') {
+            const phoneNumber = '5516992691445';
+            let message = customMessage || 'Olá! Gostaria de mais informações sobre as ofertas disponíveis.';
+            
+            if (productName && !customMessage) {
+                message = `Olá! Vi a oferta do ${productName} ${storage} por R$ ${price.toLocaleString('pt-BR')} e gostaria de mais informações. Essa oferta ainda está válida?`;
+            }
+            
+            const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            window.open(whatsappURL, '_blank');
+        }
+
+        // Add styles for offers page
+        const offersStyles = `
+            .flash-sale {
+                background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
+                color: white;
+            }
+            
+            .flash-sale__header {
+                text-align: center;
+                margin-bottom: var(--mb-3);
+            }
+            
+            .flash-sale__title {
+                font-size: var(--h2-font-size);
+                margin-bottom: var(--mb-2);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+            }
+            
+            .flash-sale__timer {
+                display: flex;
+                justify-content: center;
+                gap: 2rem;
+            }
+            
+            .timer__item {
+                text-align: center;
+                background-color: rgba(255, 255, 255, 0.1);
+                padding: 1rem;
+                border-radius: 0.5rem;
+                backdrop-filter: blur(10px);
+            }
+            
+            .timer__number {
+                display: block;
+                font-size: 2rem;
+                font-weight: var(--font-bold);
+            }
+            
+            .timer__label {
+                font-size: var(--small-font-size);
+                opacity: 0.8;
+            }
+            
+            .flash-sale__products {
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 2rem;
+            }
+            
+            .flash-product {
+                background-color: white;
+                color: var(--text-color);
+            }
+            
+            .product__badges {
+                position: absolute;
+                top: 1rem;
+                right: 1rem;
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                z-index: 1;
+            }
+            
+            .product__badge.flash {
+                background-color: #dc2626;
+                animation: pulse 2s infinite;
+            }
+            
+            .product__discount {
+                background-color: var(--accent-color);
+                color: white;
+                padding: 0.25rem 0.75rem;
+                border-radius: 2rem;
+                font-size: var(--small-font-size);
+                font-weight: var(--font-bold);
+            }
+            
+            .product__price-old {
+                text-decoration: line-through;
+                color: var(--text-color-light);
+                font-size: var(--normal-font-size);
+                margin-right: 0.5rem;
+            }
+            
+            @keyframes pulse {
+                0% { transform: scale(1); }
+                50% { transform: scale(1.05); }
+                100% { transform: scale(1); }
+            }
+            
+            .weekly-deals {
+                background-color: var(--body-color);
+            }
+            
+            .deals__container {
+                grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+                gap: 2rem;
+            }
+            
+            .deal__card {
+                background-color: var(--container-color);
+                border-radius: 1rem;
+                padding: 2rem;
+                border: 1px solid var(--border-color);
+                display: grid;
+                grid-template-columns: 1fr 120px;
+                gap: 2rem;
+                align-items: center;
+                transition: all 0.3s ease;
+            }
+            
+            .deal__card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 40px var(--shadow-color);
+            }
+            
+            .deal__header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: var(--mb-1);
+            }
+            
+            .deal__badge {
+                background-color: var(--primary-color);
+                color: white;
+                padding: 0.25rem 0.75rem;
+                border-radius: 2rem;
+                font-size: var(--small-font-size);
+                font-weight: var(--font-medium);
+            }
+            
+            .deal__discount {
+                background-color: var(--accent-color);
+                color: white;
+                padding: 0.25rem 0.75rem;
+                border-radius: 2rem;
+                font-size: var(--small-font-size);
+                font-weight: var(--font-bold);
+            }
+            
+            .deal__title {
+                font-size: var(--h3-font-size);
+                margin-bottom: 0.5rem;
+            }
+            
+            .deal__description {
+                color: var(--text-color-light);
+                margin-bottom: var(--mb-1);
+            }
+            
+            .deal__price {
+                margin-bottom: var(--mb-1-5);
+            }
+            
+            .deal__price-old {
+                text-decoration: line-through;
+                color: var(--text-color-light);
+                font-size: var(--normal-font-size);
+                display: block;
+            }
+            
+            .deal__price-current {
+                font-size: var(--h3-font-size);
+                color: var(--accent-color);
+                font-weight: var(--font-bold);
+            }
+            
+            .deal__image img {
+                max-width: 100px;
+                border-radius: 0.5rem;
+            }
+            
+            .combos {
+                background-color: var(--container-color);
+            }
+            
+            .combos__container {
+                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+                gap: 2rem;
+            }
+            
+            .combo__card {
+                background-color: var(--body-color);
+                border-radius: 1rem;
+                padding: 2rem;
+                border: 1px solid var(--border-color);
+                position: relative;
+                transition: all 0.3s ease;
+            }
+            
+            .combo__card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 40px var(--shadow-color);
+            }
+            
+            .combo__badge {
+                position: absolute;
+                top: -10px;
+                left: 50%;
+                transform: translateX(-50%);
+                background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+                color: white;
+                padding: 0.5rem 1.5rem;
+                border-radius: 2rem;
+                font-size: var(--small-font-size);
+                font-weight: var(--font-bold);
+            }
+            
+            .combo__header {
+                text-align: center;
+                margin-bottom: var(--mb-2);
+                margin-top: 1rem;
+            }
+            
+            .combo__title {
+                font-size: var(--h3-font-size);
+                margin-bottom: 0.5rem;
+            }
+            
+            .combo__subtitle {
+                color: var(--text-color-light);
+            }
+            
+            .combo__items {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+                margin-bottom: var(--mb-2);
+                flex-wrap: wrap;
+            }
+            
+            .combo__item {
+                text-align: center;
+                flex: 1;
+                min-width: 80px;
+            }
+            
+            .combo__item img {
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+                border-radius: 0.5rem;
+                margin-bottom: 0.5rem;
+            }
+            
+            .combo__item span {
+                font-size: var(--small-font-size);
+                color: var(--text-color-light);
+                display: block;
+            }
+            
+            .combo__plus {
+                color: var(--accent-color);
+                font-size: 1.5rem;
+                font-weight: var(--font-bold);
+            }
+            
+            .combo__price {
+                margin-bottom: var(--mb-2);
+            }
+            
+            .combo__price-breakdown {
+                text-align: center;
+                margin-bottom: 0.5rem;
+            }
+            
+            .combo__price-breakdown span {
+                text-decoration: line-through;
+                color: var(--text-color-light);
+                font-size: var(--small-font-size);
+            }
+            
+            .combo__price-deal {
+                text-align: center;
+            }
+            
+            .combo__price-current {
+                font-size: var(--h3-font-size);
+                color: var(--accent-color);
+                font-weight: var(--font-bold);
+                margin-right: 1rem;
+            }
+            
+            .combo__savings {
+                background-color: var(--accent-color);
+                color: white;
+                padding: 0.25rem 0.75rem;
+                border-radius: 2rem;
+                font-size: var(--small-font-size);
+                font-weight: var(--font-medium);
+            }
+            
+            .coupons {
+                background-color: var(--body-color);
+            }
+            
+            .coupons__container {
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 2rem;
+            }
+            
+            .coupon__card {
+                background-color: var(--container-color);
+                border-radius: 1rem;
+                padding: 2rem;
+                border: 2px dashed var(--accent-color);
+                text-align: center;
+                transition: all 0.3s ease;
+            }
+            
+            .coupon__card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 40px var(--shadow-color);
+            }
+            
+            .coupon__header {
+                margin-bottom: var(--mb-1);
+            }
+            
+            .coupon__title {
+                font-family: 'Courier New', monospace;
+                font-size: var(--h3-font-size);
+                color: var(--primary-color);
+                background-color: var(--body-color);
+                padding: 0.5rem 1rem;
+                border-radius: 0.5rem;
+                display: inline-block;
+                margin-bottom: 0.5rem;
+            }
+            
+            .coupon__discount {
+                font-size: var(--h2-font-size);
+                color: var(--accent-color);
+                font-weight: var(--font-bold);
+            }
+            
+            .coupon__description {
+                color: var(--text-color-light);
+                margin-bottom: var(--mb-1-5);
+            }
+            
+            .coupon__details {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                margin-bottom: var(--mb-2);
+            }
+            
+            .coupon__details span {
+                color: var(--text-color-light);
+                font-size: var(--small-font-size);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0.5rem;
+            }
+            
+            .coupon__details i {
+                color: var(--accent-color);
+            }
+            
+            .newsletter {
+                background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-color-alt) 100%);
+                color: white;
+            }
+            
+            .newsletter__container {
+                display: grid;
+                grid-template-columns: 1fr auto;
+                gap: 3rem;
+                align-items: center;
+                text-align: left;
+            }
+            
+            .newsletter__title {
+                font-size: var(--h2-font-size);
+                margin-bottom: var(--mb-1);
+            }
+            
+            .newsletter__description {
+                opacity: 0.9;
+                font-size: var(--normal-font-size);
+            }
+            
+            @media screen and (max-width: 768px) {
+                .newsletter__container {
+                    grid-template-columns: 1fr;
+                    text-align: center;
+                }
+                
+                .deal__card {
+                    grid-template-columns: 1fr;
+                    text-align: center;
+                }
+                
+                .timer__item {
+                    padding: 0.5rem;
+                }
+                
+                .timer__number {
+                    font-size: 1.5rem;
+                }
+                
+                .flash-sale__timer {
+                    gap: 1rem;
+                }
+                
+                .combo__items {
+                    flex-direction: column;
+                }
+                
+                .combo__plus {
+                    transform: rotate(90deg);
+                }
+            }
+        `;
+        
+        const styleSheet = document.createElement('style');
+        styleSheet.textContent = offersStyles;
+        document.head.appendChild(styleSheet);
+    </script>
+</body>
+</html>

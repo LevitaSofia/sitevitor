@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone - Apple iPhone 12, 13, 14 e 15 com garantia | Benalia Smart Fone</title>
+    <meta name="description" content="Compre iPhone Apple com nota fiscal e garantia. iPhone 12, 13, 14 e 15 novos e seminovos. Entrega rápida em Ribeirão Preto e todo Brasil. Parcelamento no cartão.">
+    <meta name="keywords" content="iPhone, Apple, iPhone 12, iPhone 13, iPhone 14, iPhone 15, comprar iPhone Ribeirão Preto, iPhone seminovo garantia, iPhone preço">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="iPhone Apple - iPhones com garantia | Benalia Smart Fone">
+    <meta property="og:description" content="iPhones Apple com preço justo, garantia e entrega rápida.">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Apple iPhone Collection",
+      "description": "Coleção de iPhones Apple com garantia e preço justo",
+      "url": "https://benaliasmartfone.com.br/apple",
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "iPhone Collection"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- WhatsApp Fixed Button -->
+    <div class="whatsapp-fixed">
+        <a href="https://wa.me/5516992691445" target="_blank" aria-label="Chamar no WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <a href="index.html"><h2>Benalia Smart Fone</h2></a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Início</a></li>
+                    <li><a href="#produtos" class="nav__link">Produtos</a></li>
+                    <li><a href="ofertas.html" class="nav__link">Ofertas</a></li>
+                    <li><a href="sobre.html" class="nav__link">Sobre</a></li>
+                    <li><a href="contato.html" class="nav__link">Contato</a></li>
+                    <li><a href="faq.html" class="nav__link">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+        <div class="container">
+            <ul class="breadcrumb__list">
+                <li class="breadcrumb__item">
+                    <a href="index.html" class="breadcrumb__link">Início</a>
+                </li>
+                <li class="breadcrumb__separator">/</li>
+                <li class="breadcrumb__item">Apple iPhone</li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-header__title">Apple iPhone</h1>
+            <p class="page-header__description">
+                Descubra a linha completa de iPhones Apple com garantia, preço justo e a qualidade premium que você já conhece.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Search and Filters -->
+        <section class="filters-section section">
+            <div class="container">
+                <div class="search__container">
+                    <input type="text" id="search-input" class="form__input" placeholder="Buscar por modelo, armazenamento...">
+                    <i class="fas fa-search search__icon"></i>
+                </div>
+                
+                <div class="filters">
+                    <button class="filter__button active" data-condition="all">Todos</button>
+                    <button class="filter__button" data-condition="novo">Novos</button>
+                    <button class="filter__button" data-condition="seminovo">Seminovos</button>
+                    <button class="filter__button" data-price="under-1500">Até R$ 1.500</button>
+                    <button class="filter__button" data-price="1500-2500">R$ 1.500 - R$ 2.500</button>
+                    <button class="filter__button" data-price="over-2500">Acima de R$ 2.500</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Grid -->
+        <section class="products section" id="produtos">
+            <div class="container">
+                <div class="products__header">
+                    <h2 class="section__title">iPhones Apple</h2>
+                    <div class="products__sort">
+                        <select id="sort-select" class="form__input">
+                            <option value="name">Ordenar por nome</option>
+                            <option value="price-low">Menor preço</option>
+                            <option value="price-high">Maior preço</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="products__container grid" id="products-container">
+                    <!-- Products will be loaded via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Brand Info -->
+        <section class="brand-info section">
+            <div class="container">
+                <div class="brand-info__container grid">
+                    <div class="brand-info__content">
+                        <h2 class="brand-info__title">Por que escolher iPhone?</h2>
+                        <div class="brand-info__features">
+                            <div class="feature">
+                                <i class="fas fa-apple-alt feature__icon"></i>
+                                <div class="feature__content">
+                                    <h3 class="feature__title">Ecossistema Apple</h3>
+                                    <p class="feature__description">Integração perfeita com Mac, iPad, Apple Watch e AirPods</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-shield-alt feature__icon"></i>
+                                <div class="feature__content">
+                                    <h3 class="feature__title">Segurança Premium</h3>
+                                    <p class="feature__description">iOS com atualizações por anos e máxima proteção de dados</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-camera feature__icon"></i>
+                                <div class="feature__content">
+                                    <h3 class="feature__title">Câmeras Profissionais</h3>
+                                    <p class="feature__description">Sistema de câmeras avançado com modo Cinematográfico</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-microchip feature__icon"></i>
+                                <div class="feature__content">
+                                    <h3 class="feature__title">Chip A-Series</h3>
+                                    <p class="feature__description">Processadores mais rápidos do mercado mobile</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brand-info__image">
+                        <img src="assets/images/iphone-features.png" alt="Recursos iPhone">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- iPhone Generations -->
+        <section class="generations section">
+            <div class="container">
+                <h2 class="section__title">Gerações iPhone</h2>
+                <div class="generations__container grid">
+                    <div class="generation__card">
+                        <div class="generation__header">
+                            <div class="generation__number">15</div>
+                            <div class="generation__info">
+                                <h3 class="generation__title">iPhone 15</h3>
+                                <span class="generation__year">2023</span>
+                            </div>
+                        </div>
+                        <div class="generation__features">
+                            <div class="generation__highlight">
+                                <i class="fas fa-usb"></i>
+                                <span>USB-C</span>
+                            </div>
+                            <div class="generation__highlight">
+                                <i class="fas fa-camera"></i>
+                                <span>48MP Principal</span>
+                            </div>
+                            <div class="generation__highlight">
+                                <i class="fas fa-microchip"></i>
+                                <span>Chip A16/A17</span>
+                            </div>
+                        </div>
+                        <p class="generation__description">
+                            A mais nova geração com USB-C, câmeras aprimoradas e Island Dinâmica.
+                        </p>
+                    </div>
+                    
+                    <div class="generation__card">
+                        <div class="generation__header">
+                            <div class="generation__number">14</div>
+                            <div class="generation__info">
+                                <h3 class="generation__title">iPhone 14</h3>
+                                <span class="generation__year">2022</span>
+                            </div>
+                        </div>
+                        <div class="generation__features">
+                            <div class="generation__highlight">
+                                <i class="fas fa-satellite"></i>
+                                <span>SOS Satélite</span>
+                            </div>
+                            <div class="generation__highlight">
+                                <i class="fas fa-car-crash"></i>
+                                <span>Detecção Acidente</span>
+                            </div>
+                            <div class="generation__highlight">
+                                <i class="fas fa-camera"></i>
+                                <span>Modo Ação</span>
+                            </div>
+                        </div>
+                        <p class="generation__description">
+                            Recursos de segurança avançados e melhorias significativas na câmera.
+                        </p>
+                    </div>
+                    
+                    <div class="generation__card">
+                        <div class="generation__header">
+                            <div class="generation__number">13</div>
+                            <div class="generation__info">
+                                <h3 class="generation__title">iPhone 13</h3>
+                                <span class="generation__year">2021</span>
+                            </div>
+                        </div>
+                        <div class="generation__features">
+                            <div class="generation__highlight">
+                                <i class="fas fa-video"></i>
+                                <span>Modo Cinematográfico</span>
+                            </div>
+                            <div class="generation__highlight">
+                                <i class="fas fa-battery-full"></i>
+                                <span>Bateria +2.5h</span>
+                            </div>
+                            <div class="generation__highlight">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Notch 20% menor</span>
+                            </div>
+                        </div>
+                        <p class="generation__description">
+                            Introdução do modo Cinematográfico e bateria significativamente melhorada.
+                        </p>
+                    </div>
+                    
+                    <div class="generation__card">
+                        <div class="generation__header">
+                            <div class="generation__number">12</div>
+                            <div class="generation__info">
+                                <h3 class="generation__title">iPhone 12</h3>
+                                <span class="generation__year">2020</span>
+                            </div>
+                        </div>
+                        <div class="generation__features">
+                            <div class="generation__highlight">
+                                <i class="fas fa-signal"></i>
+                                <span>5G</span>
+                            </div>
+                            <div class="generation__highlight">
+                                <i class="fas fa-magnet"></i>
+                                <span>MagSafe</span>
+                            </div>
+                            <div class="generation__highlight">
+                                <i class="fas fa-square"></i>
+                                <span>Design Angular</span>
+                            </div>
+                        </div>
+                        <p class="generation__description">
+                            Primeiro iPhone com 5G, MagSafe e novo design com bordas retas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- iPhone Care -->
+        <section class="care section">
+            <div class="container">
+                <div class="care__container grid">
+                    <div class="care__content">
+                        <h2 class="care__title">Garantia e Cuidados iPhone</h2>
+                        <div class="care__items">
+                            <div class="care__item">
+                                <i class="fas fa-certificate care__icon"></i>
+                                <div class="care__info">
+                                    <h3 class="care__subtitle">Garantia Apple</h3>
+                                    <p class="care__description">12 meses de garantia oficial Apple em produtos novos</p>
+                                </div>
+                            </div>
+                            <div class="care__item">
+                                <i class="fas fa-tools care__icon"></i>
+                                <div class="care__info">
+                                    <h3 class="care__subtitle">Seminovos Checados</h3>
+                                    <p class="care__description">iPhones seminovos passam por rigorosa inspeção de qualidade</p>
+                                </div>
+                            </div>
+                            <div class="care__item">
+                                <i class="fas fa-sync-alt care__icon"></i>
+                                <div class="care__info">
+                                    <h3 class="care__subtitle">Troca Facilitada</h3>
+                                    <p class="care__description">7 dias para troca em caso de defeito ou insatisfação</p>
+                                </div>
+                            </div>
+                            <div class="care__item">
+                                <i class="fas fa-headset care__icon"></i>
+                                <div class="care__info">
+                                    <h3 class="care__subtitle">Suporte Especializado</h3>
+                                    <p class="care__description">Atendimento técnico especializado em produtos Apple</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="care__image">
+                        <img src="assets/images/iphone-care.png" alt="Cuidados iPhone">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta section">
+            <div class="container">
+                <div class="cta__container">
+                    <h2 class="cta__title">Encontrou o iPhone ideal?</h2>
+                    <p class="cta__description">
+                        Fale conosco no WhatsApp e garanta já o seu com o melhor preço e condições especiais
+                    </p>
+                    <a href="https://wa.me/5516992691445" class="button cta__button" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        Chamar no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="container">
+            <div class="footer__container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Benalia Smart Fone</h3>
+                    <p class="footer__description">
+                        Smartphones multimarcas com preço justo, garantia e entrega rápida para todo o Brasil.
+                    </p>
+                    <div class="footer__social">
+                        <a href="https://wa.me/5516992691445" class="footer__social-link" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="footer__social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer__social-link" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__content">
+                    <h3 class="footer__title">Navegação</h3>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Início</a></li>
+                        <li><a href="samsung.html" class="footer__link">Samsung</a></li>
+                        <li><a href="xiaomi.html" class="footer__link">Xiaomi</a></li>
+                        <li><a href="apple.html" class="footer__link">Apple</a></li>
+                        <li><a href="motorola.html" class="footer__link">Motorola</a></li>
+                        <li><a href="ofertas.html" class="footer__link">Ofertas</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__content">
+                    <h3 class="footer__title">Suporte</h3>
+                    <ul class="footer__links">
+                        <li><a href="sobre.html" class="footer__link">Sobre nós</a></li>
+                        <li><a href="contato.html" class="footer__link">Contato</a></li>
+                        <li><a href="faq.html" class="footer__link">FAQ</a></li>
+                        <li><a href="garantia.html" class="footer__link">Garantia</a></li>
+                        <li><a href="privacidade.html" class="footer__link">Privacidade</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__content">
+                    <h3 class="footer__title">Contato</h3>
+                    <ul class="footer__data">
+                        <li class="footer__information">
+                            <i class="fab fa-whatsapp footer__icon"></i>
+                            <a href="https://wa.me/5516992691445" target="_blank">(16) 99269-1445</a>
+                        </li>
+                        <li class="footer__information">
+                            <i class="fas fa-phone footer__icon"></i>
+                            (16) 99269-1445
+                        </li>
+                        <li class="footer__information">
+                            <i class="fas fa-map-marker-alt footer__icon"></i>
+                            Ribeirão Preto - SP
+                        </li>
+                        <li class="footer__information">
+                            <i class="fas fa-clock footer__icon"></i>
+                            Seg a Sáb: 8h às 18h
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__copy">
+                <p>&copy; 2024 Benalia Smart Fone. Todos os direitos reservados.</p>
+                <div class="footer__copy-links">
+                    <a href="termos.html">Termos de Uso</a>
+                    <a href="privacidade.html">Política de Privacidade</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="fas fa-angle-up scrolltop__icon"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Load Apple products when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            const appleProducts = getProductsByBrand('Apple');
+            renderProducts(appleProducts, 'products-container');
+            
+            // Sort functionality
+            const sortSelect = document.getElementById('sort-select');
+            sortSelect.addEventListener('change', function() {
+                const sortBy = this.value;
+                const currentProducts = getProductsByBrand('Apple');
+                const sortedProducts = sortProducts(currentProducts, sortBy);
+                renderProducts(sortedProducts, 'products-container');
+            });
+
+            // Filter functionality specific to Apple
+            const filterButtons = document.querySelectorAll('.filter__button');
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+
+                    const condition = this.dataset.condition || 'all';
+                    const priceRange = this.dataset.price || 'all';
+
+                    let filteredProducts = filterProducts('apple', condition, priceRange);
+                    renderProducts(filteredProducts, 'products-container');
+                });
+            });
+        });
+
+        // Add styles for new sections
+        const additionalStyles = `
+            .generations {
+                background-color: var(--body-color);
+            }
+            
+            .generations__container {
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 2rem;
+            }
+            
+            .generation__card {
+                background-color: var(--container-color);
+                border-radius: 1rem;
+                padding: 2rem;
+                border: 1px solid var(--border-color);
+                transition: all 0.3s ease;
+            }
+            
+            .generation__card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 40px var(--shadow-color);
+            }
+            
+            .generation__header {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                margin-bottom: var(--mb-1);
+            }
+            
+            .generation__number {
+                width: 60px;
+                height: 60px;
+                background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+                color: white;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.5rem;
+                font-weight: var(--font-bold);
+            }
+            
+            .generation__title {
+                font-size: var(--h3-font-size);
+                color: var(--text-color);
+                margin: 0;
+            }
+            
+            .generation__year {
+                color: var(--text-color-light);
+                font-size: var(--small-font-size);
+            }
+            
+            .generation__features {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.75rem;
+                margin-bottom: var(--mb-1);
+            }
+            
+            .generation__highlight {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                background-color: var(--body-color);
+                padding: 0.5rem 1rem;
+                border-radius: 2rem;
+                font-size: var(--small-font-size);
+                color: var(--text-color);
+            }
+            
+            .generation__highlight i {
+                color: var(--accent-color);
+            }
+            
+            .generation__description {
+                color: var(--text-color-light);
+                line-height: 1.6;
+            }
+            
+            .care {
+                background-color: var(--container-color);
+            }
+            
+            .care__container {
+                grid-template-columns: 1fr 0.8fr;
+                gap: 4rem;
+                align-items: center;
+            }
+            
+            .care__title {
+                font-size: var(--h2-font-size);
+                margin-bottom: var(--mb-2);
+            }
+            
+            .care__items {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+            
+            .care__item {
+                display: flex;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+            
+            .care__icon {
+                width: 50px;
+                height: 50px;
+                background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+                color: white;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.25rem;
+                flex-shrink: 0;
+            }
+            
+            .care__subtitle {
+                font-size: var(--h3-font-size);
+                color: var(--text-color);
+                margin-bottom: 0.25rem;
+            }
+            
+            .care__description {
+                color: var(--text-color-light);
+                line-height: 1.6;
+            }
+            
+            @media screen and (max-width: 768px) {
+                .care__container {
+                    grid-template-columns: 1fr;
+                    gap: 2rem;
+                }
+            }
+        `;
+        
+        const styleSheet = document.createElement('style');
+        styleSheet.textContent = additionalStyles;
+        document.head.appendChild(styleSheet);
+    </script>
+</body>
+</html>

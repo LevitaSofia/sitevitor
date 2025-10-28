@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorola - Moto G, Edge e mais com preço justo | Benalia Smart Fone</title>
+    <meta name="description" content="Compre smartphones Motorola Moto G84, Edge 40 e mais com nota fiscal e garantia. Entrega rápida em Ribeirão Preto e todo Brasil. Parcelamento no cartão e PIX com desconto.">
+    <meta name="keywords" content="Motorola, Moto G, Moto Edge, smartphone Motorola, Motorola preço, comprar Motorola Ribeirão Preto, Moto G84">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Motorola - Smartphones Motorola | Benalia Smart Fone">
+    <meta property="og:description" content="Smartphones Motorola com preço justo, garantia e entrega rápida.">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Motorola Smartphones",
+      "description": "Coleção de smartphones Motorola com garantia e preço justo",
+      "url": "https://benaliasmartfone.com.br/motorola",
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Motorola Collection"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- WhatsApp Fixed Button -->
+    <div class="whatsapp-fixed">
+        <a href="https://wa.me/5516992691445" target="_blank" aria-label="Chamar no WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <a href="index.html"><h2>Benalia Smart Fone</h2></a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Início</a></li>
+                    <li><a href="#produtos" class="nav__link">Produtos</a></li>
+                    <li><a href="ofertas.html" class="nav__link">Ofertas</a></li>
+                    <li><a href="sobre.html" class="nav__link">Sobre</a></li>
+                    <li><a href="contato.html" class="nav__link">Contato</a></li>
+                    <li><a href="faq.html" class="nav__link">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+        <div class="container">
+            <ul class="breadcrumb__list">
+                <li class="breadcrumb__item">
+                    <a href="index.html" class="breadcrumb__link">Início</a>
+                </li>
+                <li class="breadcrumb__separator">/</li>
+                <li class="breadcrumb__item">Motorola</li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-header__title">Motorola</h1>
+            <p class="page-header__description">
+                Descubra os smartphones Motorola com Android puro, bateria duradoura e recursos inovadores. Moto G, Edge e mais.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Search and Filters -->
+        <section class="filters-section section">
+            <div class="container">
+                <div class="search__container">
+                    <input type="text" id="search-input" class="form__input" placeholder="Buscar por modelo, armazenamento...">
+                    <i class="fas fa-search search__icon"></i>
+                </div>
+                
+                <div class="filters">
+                    <button class="filter__button active" data-condition="all">Todos</button>
+                    <button class="filter__button" data-condition="novo">Novos</button>
+                    <button class="filter__button" data-condition="seminovo">Seminovos</button>
+                    <button class="filter__button" data-price="under-1500">Até R$ 1.500</button>
+                    <button class="filter__button" data-price="1500-2500">R$ 1.500 - R$ 2.500</button>
+                    <button class="filter__button" data-price="over-2500">Acima de R$ 2.500</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Grid -->
+        <section class="products section" id="produtos">
+            <div class="container">
+                <div class="products__header">
+                    <h2 class="section__title">Smartphones Motorola</h2>
+                    <div class="products__sort">
+                        <select id="sort-select" class="form__input">
+                            <option value="name">Ordenar por nome</option>
+                            <option value="price-low">Menor preço</option>
+                            <option value="price-high">Maior preço</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="products__container grid" id="products-container">
+                    <!-- Products will be loaded via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Brand Info -->
+        <section class="brand-info section">
+            <div class="container">
+                <div class="brand-info__container grid">
+                    <div class="brand-info__content">
+                        <h2 class="brand-info__title">Por que escolher Motorola?</h2>
+                        <div class="brand-info__features">
+                            <div class="feature">
+                                <i class="fab fa-android feature__icon"></i>
+                                <div class="feature__content">
+                                    <h3 class="feature__title">Android Puro</h3>
+                                    <p class="feature__description">Experiência Android limpa sem modificações desnecessárias</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-battery-full feature__icon"></i>
+                                <div class="feature__content">
+                                    <h3 class="feature__title">Bateria de Longa Duração</h3>
+                                    <p class="feature__description">Até 5000mAh com carregamento TurboPower</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-hand-point-up feature__icon"></i>
+                                <div class="feature__content">
+                                    <h3 class="feature__title">Moto Actions</h3>
+                                    <p class="feature__description">Gestos intuitivos para facilitar o uso diário</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-dollar-sign feature__icon"></i>
+                                <div class="feature__content">
+                                    <h3 class="feature__title">Preço Justo</h3>
+                                    <p class="feature__description">Excelente custo-benefício em todas as categorias</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brand-info__image">
+                        <img src="assets/images/motorola-features.png" alt="Recursos Motorola">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Moto Series -->
+        <section class="moto-series section">
+            <div class="container">
+                <h2 class="section__title">Conheça as Séries Moto</h2>
+                <div class="series__container grid">
+                    <div class="series__card">
+                        <div class="series__header">
+                            <i class="fas fa-users series__icon"></i>
+                            <h3 class="series__title">Moto G</h3>
+                        </div>
+                        <p class="series__description">
+                            A série mais popular com excelente custo-benefício, ideal para quem busca qualidade sem pagar muito.
+                        </p>
+                        <ul class="series__features">
+                            <li><i class="fas fa-check"></i> Android puro</li>
+                            <li><i class="fas fa-check"></i> Bateria 5000mAh</li>
+                            <li><i class="fas fa-check"></i> Câmeras versáteis</li>
+                            <li><i class="fas fa-check"></i> Preço acessível</li>
+                        </ul>
+                        <div class="series__models">
+                            <span class="series__model">Moto G84</span>
+                            <span class="series__model">Moto G73</span>
+                            <span class="series__model">Moto G53</span>
+                        </div>
+                    </div>
+                    
+                    <div class="series__card">
+                        <div class="series__header">
+                            <i class="fas fa-crown series__icon"></i>
+                            <h3 class="series__title">Moto Edge</h3>
+                        </div>
+                        <p class="series__description">
+                            Linha premium com telas curvas, processadores poderosos e recursos avançados para usuários exigentes.
+                        </p>
+                        <ul class="series__features">
+                            <li><i class="fas fa-check"></i> Tela curved OLED</li>
+                            <li><i class="fas fa-check"></i> Processadores flagship</li>
+                            <li><i class="fas fa-check"></i> Câmeras profissionais</li>
+                            <li><i class="fas fa-check"></i> Carregamento wireless</li>
+                        </ul>
+                        <div class="series__models">
+                            <span class="series__model">Edge 40</span>
+                            <span class="series__model">Edge 30</span>
+                            <span class="series__model">Edge 20</span>
+                        </div>
+                    </div>
+                    
+                    <div class="series__card">
+                        <div class="series__header">
+                            <i class="fas fa-leaf series__icon"></i>
+                            <h3 class="series__title">Moto E</h3>
+                        </div>
+                        <p class="series__description">
+                            Entrada no mundo Android com qualidade Motorola, ideal para primeiro smartphone ou uso básico.
+                        </p>
+                        <ul class="series__features">
+                            <li><i class="fas fa-check"></i> Android Go Edition</li>
+                            <li><i class="fas fa-check"></i> Preço acessível</li>
+                            <li><i class="fas fa-check"></i> Qualidade Motorola</li>
+                            <li><i class="fas fa-check"></i> Simplicidade de uso</li>
+                        </ul>
+                        <div class="series__models">
+                            <span class="series__model">Moto E13</span>
+                            <span class="series__model">Moto E22</span>
+                            <span class="series__model">Moto E32</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Moto Actions -->
+        <section class="moto-actions section">
+            <div class="container">
+                <div class="actions__container grid">
+                    <div class="actions__content">
+                        <h2 class="actions__title">Moto Actions</h2>
+                        <p class="actions__description">
+                            Gestos inteligentes que tornam o uso do seu Motorola ainda mais prático e intuitivo.
+                        </p>
+                        <div class="actions__list">
+                            <div class="action__item">
+                                <div class="action__icon">
+                                    <i class="fas fa-hand-scissors"></i>
+                                </div>
+                                <div class="action__info">
+                                    <h3 class="action__name">Cortar para Lanterna</h3>
+                                    <p class="action__desc">Faça movimentos de corte para ativar a lanterna</p>
+                                </div>
+                            </div>
+                            <div class="action__item">
+                                <div class="action__icon">
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                                <div class="action__info">
+                                    <h3 class="action__name">Girar para Câmera</h3>
+                                    <p class="action__desc">Gire o pulso duas vezes para abrir a câmera</p>
+                                </div>
+                            </div>
+                            <div class="action__item">
+                                <div class="action__icon">
+                                    <i class="fas fa-hand-paper"></i>
+                                </div>
+                                <div class="action__info">
+                                    <h3 class="action__name">Virar para Silenciar</h3>
+                                    <p class="action__desc">Vire o telefone para baixo para silenciar</p>
+                                </div>
+                            </div>
+                            <div class="action__item">
+                                <div class="action__icon">
+                                    <i class="fas fa-volume-up"></i>
+                                </div>
+                                <div class="action__info">
+                                    <h3 class="action__name">Apertar para Falar</h3>
+                                    <p class="action__desc">Pressione e segure o botão de energia para ativar o Google Assistant</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="actions__image">
+                        <img src="assets/images/moto-actions.png" alt="Moto Actions">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Models -->
+        <section class="popular section">
+            <div class="container">
+                <h2 class="section__title">Modelos Mais Populares</h2>
+                <div class="popular__container grid">
+                    <div class="popular__card">
+                        <div class="popular__img">
+                            <img src="assets/images/moto-g84.jpg" alt="Motorola Moto G84">
+                        </div>
+                        <div class="popular__content">
+                            <h3 class="popular__title">Moto G84</h3>
+                            <p class="popular__description">O equilíbrio perfeito entre performance e preço</p>
+                            <div class="popular__specs">
+                                <span><i class="fas fa-memory"></i> 256GB</span>
+                                <span><i class="fas fa-camera"></i> 50MP</span>
+                                <span><i class="fas fa-battery-full"></i> 5000mAh</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="popular__card">
+                        <div class="popular__img">
+                            <img src="assets/images/moto-edge40.jpg" alt="Motorola Edge 40">
+                        </div>
+                        <div class="popular__content">
+                            <h3 class="popular__title">Edge 40</h3>
+                            <p class="popular__description">Premium com tela curved e performance flagship</p>
+                            <div class="popular__specs">
+                                <span><i class="fas fa-memory"></i> 256GB</span>
+                                <span><i class="fas fa-camera"></i> 50MP</span>
+                                <span><i class="fas fa-battery-full"></i> 4400mAh</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta section">
+            <div class="container">
+                <div class="cta__container">
+                    <h2 class="cta__title">Encontrou o Motorola ideal?</h2>
+                    <p class="cta__description">
+                        Fale conosco no WhatsApp e garanta já o seu com o melhor preço e condições especiais
+                    </p>
+                    <a href="https://wa.me/5516992691445" class="button cta__button" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        Chamar no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="container">
+            <div class="footer__container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Benalia Smart Fone</h3>
+                    <p class="footer__description">
+                        Smartphones multimarcas com preço justo, garantia e entrega rápida para todo o Brasil.
+                    </p>
+                    <div class="footer__social">
+                        <a href="https://wa.me/5516992691445" class="footer__social-link" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="footer__social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer__social-link" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__content">
+                    <h3 class="footer__title">Navegação</h3>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Início</a></li>
+                        <li><a href="samsung.html" class="footer__link">Samsung</a></li>
+                        <li><a href="xiaomi.html" class="footer__link">Xiaomi</a></li>
+                        <li><a href="apple.html" class="footer__link">Apple</a></li>
+                        <li><a href="motorola.html" class="footer__link">Motorola</a></li>
+                        <li><a href="ofertas.html" class="footer__link">Ofertas</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__content">
+                    <h3 class="footer__title">Suporte</h3>
+                    <ul class="footer__links">
+                        <li><a href="sobre.html" class="footer__link">Sobre nós</a></li>
+                        <li><a href="contato.html" class="footer__link">Contato</a></li>
+                        <li><a href="faq.html" class="footer__link">FAQ</a></li>
+                        <li><a href="garantia.html" class="footer__link">Garantia</a></li>
+                        <li><a href="privacidade.html" class="footer__link">Privacidade</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__content">
+                    <h3 class="footer__title">Contato</h3>
+                    <ul class="footer__data">
+                        <li class="footer__information">
+                            <i class="fab fa-whatsapp footer__icon"></i>
+                            <a href="https://wa.me/5516992691445" target="_blank">(16) 99269-1445</a>
+                        </li>
+                        <li class="footer__information">
+                            <i class="fas fa-phone footer__icon"></i>
+                            (16) 99269-1445
+                        </li>
+                        <li class="footer__information">
+                            <i class="fas fa-map-marker-alt footer__icon"></i>
+                            Ribeirão Preto - SP
+                        </li>
+                        <li class="footer__information">
+                            <i class="fas fa-clock footer__icon"></i>
+                            Seg a Sáb: 8h às 18h
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__copy">
+                <p>&copy; 2024 Benalia Smart Fone. Todos os direitos reservados.</p>
+                <div class="footer__copy-links">
+                    <a href="termos.html">Termos de Uso</a>
+                    <a href="privacidade.html">Política de Privacidade</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="fas fa-angle-up scrolltop__icon"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Load Motorola products when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            const motorolaProducts = getProductsByBrand('Motorola');
+            renderProducts(motorolaProducts, 'products-container');
+            
+            // Sort functionality
+            const sortSelect = document.getElementById('sort-select');
+            sortSelect.addEventListener('change', function() {
+                const sortBy = this.value;
+                const currentProducts = getProductsByBrand('Motorola');
+                const sortedProducts = sortProducts(currentProducts, sortBy);
+                renderProducts(sortedProducts, 'products-container');
+            });
+
+            // Filter functionality specific to Motorola
+            const filterButtons = document.querySelectorAll('.filter__button');
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+
+                    const condition = this.dataset.condition || 'all';
+                    const priceRange = this.dataset.price || 'all';
+
+                    let filteredProducts = filterProducts('motorola', condition, priceRange);
+                    renderProducts(filteredProducts, 'products-container');
+                });
+            });
+        });
+
+        // Add styles for new sections
+        const additionalStyles = `
+            .moto-series {
+                background-color: var(--body-color);
+            }
+            
+            .series__models {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+                margin-top: var(--mb-1);
+            }
+            
+            .series__model {
+                background-color: var(--primary-color);
+                color: white;
+                padding: 0.25rem 0.75rem;
+                border-radius: 1rem;
+                font-size: var(--small-font-size);
+                font-weight: var(--font-medium);
+            }
+            
+            .moto-actions {
+                background-color: var(--container-color);
+            }
+            
+            .actions__container {
+                grid-template-columns: 1fr 0.8fr;
+                gap: 4rem;
+                align-items: center;
+            }
+            
+            .actions__title {
+                font-size: var(--h2-font-size);
+                margin-bottom: var(--mb-1);
+            }
+            
+            .actions__description {
+                color: var(--text-color-light);
+                margin-bottom: var(--mb-2);
+                font-size: var(--h3-font-size);
+            }
+            
+            .actions__list {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+            
+            .action__item {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                padding: 1rem;
+                background-color: var(--body-color);
+                border-radius: 0.75rem;
+                border: 1px solid var(--border-color);
+                transition: all 0.3s ease;
+            }
+            
+            .action__item:hover {
+                transform: translateX(5px);
+                box-shadow: 0 5px 15px var(--shadow-color);
+            }
+            
+            .action__icon {
+                width: 50px;
+                height: 50px;
+                background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+                color: white;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.25rem;
+                flex-shrink: 0;
+            }
+            
+            .action__name {
+                font-size: var(--normal-font-size);
+                font-weight: var(--font-semi-bold);
+                color: var(--text-color);
+                margin-bottom: 0.25rem;
+            }
+            
+            .action__desc {
+                color: var(--text-color-light);
+                font-size: var(--small-font-size);
+                line-height: 1.4;
+            }
+            
+            @media screen and (max-width: 768px) {
+                .actions__container {
+                    grid-template-columns: 1fr;
+                    gap: 2rem;
+                }
+            }
+        `;
+        
+        const styleSheet = document.createElement('style');
+        styleSheet.textContent = additionalStyles;
+        document.head.appendChild(styleSheet);
+    </script>
+</body>
+</html>
