@@ -79,20 +79,232 @@
         <!-- Hero Section -->
         <section class="hero section" id="home">
             <div class="hero__container container">
-                <div class="hero__data">
-                    <h1 class="hero__title">
-                        Seu smartphone novo com <span>preço justo</span> e <span>entrega rápida</span>
-                    </h1>
-                    <p class="hero__description">
-                        Atendimento no WhatsApp, nota fiscal e garantia em todas as compras.
-                    </p>
-                    <a href="https://wa.me/5516992691445" class="button hero__button" target="_blank">
-                        <i class="fab fa-whatsapp"></i>
-                        Chamar no WhatsApp
-                    </a>
+                <div class="hero__content">
+                    <div class="hero__data">
+                        <span class="hero__badge">🔥 Ofertas Limitadas</span>
+                        <h1 class="hero__title">
+                            Os <span class="highlight">melhores smartphones</span><br>
+                            com <span class="highlight-secondary">preços que cabem no seu bolso</span>
+                        </h1>
+                        <p class="hero__description">
+                            Produtos 100% originais • Garantia estendida • Entrega expressa para Ribeirão Preto
+                        </p>
+                        
+                        <div class="hero__benefits">
+                            <div class="hero__benefit">
+                                <i class="fas fa-shipping-fast"></i>
+                                <span>Entrega em 24h</span>
+                            </div>
+                            <div class="hero__benefit">
+                                <i class="fas fa-shield-check"></i>
+                                <span>Garantia + Nota Fiscal</span>
+                            </div>
+                            <div class="hero__benefit">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>Suporte via WhatsApp</span>
+                            </div>
+                        </div>
+
+                        <div class="hero__actions">
+                            <a href="#ofertas-flash" class="button button--primary hero__button">
+                                <i class="fas fa-fire"></i>
+                                Ver Ofertas Flash
+                            </a>
+                            <a href="https://wa.me/5516992691445" class="button button--outline hero__button" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                Chamar no WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero__visual">
+                        <div class="hero__phones">
+                            <div class="hero__phone hero__phone--main">
+                                <img src="https://via.placeholder.com/250x400/1E40AF/ffffff?text=iPhone+15" alt="iPhone 15 Pro">
+                                <div class="hero__phone-badge">-15%</div>
+                            </div>
+                            <div class="hero__phone hero__phone--secondary">
+                                <img src="https://via.placeholder.com/200x320/10B981/ffffff?text=Galaxy+S24" alt="Samsung Galaxy S24">
+                            </div>
+                        </div>
+                        <div class="hero__floating-elements">
+                            <div class="floating-element floating-element--1">
+                                <i class="fas fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                            <div class="floating-element floating-element--2">
+                                <i class="fas fa-users"></i>
+                                <span>1000+ clientes</span>
+                            </div>
+                            <div class="floating-element floating-element--3">
+                                <i class="fas fa-truck"></i>
+                                <span>Entrega rápida</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="hero__img">
-                    <img src="assets/images/hero-phones.png" alt="Smartphones Samsung, Xiaomi, Apple e Motorola">
+            </div>
+        </section>
+
+        <!-- Ofertas Flash Section -->
+        <section class="ofertas-flash section" id="ofertas-flash">
+            <div class="container">
+                <div class="ofertas-flash__header">
+                    <div class="ofertas-flash__title-group">
+                        <h2 class="section__title">⚡ Ofertas Flash</h2>
+                        <p class="section__subtitle">Descontos imperdíveis por tempo limitado</p>
+                    </div>
+                    <div class="ofertas-flash__timer">
+                        <div class="timer">
+                            <div class="timer__item">
+                                <span class="timer__number" id="hours">12</span>
+                                <span class="timer__label">Horas</span>
+                            </div>
+                            <div class="timer__item">
+                                <span class="timer__number" id="minutes">34</span>
+                                <span class="timer__label">Min</span>
+                            </div>
+                            <div class="timer__item">
+                                <span class="timer__number" id="seconds">56</span>
+                                <span class="timer__label">Seg</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ofertas-flash__grid">
+                    <div class="flash-card">
+                        <div class="flash-card__badge">-25%</div>
+                        <div class="flash-card__image">
+                            <img src="https://via.placeholder.com/200x200/1E40AF/ffffff?text=iPhone+14" alt="iPhone 14">
+                        </div>
+                        <div class="flash-card__content">
+                            <h3 class="flash-card__title">iPhone 14 128GB</h3>
+                            <div class="flash-card__price">
+                                <span class="price__old">R$ 4.299,00</span>
+                                <span class="price__new">R$ 3.224,00</span>
+                            </div>
+                            <div class="flash-card__stock">
+                                <div class="stock-bar">
+                                    <div class="stock-bar__fill" style="width: 70%"></div>
+                                </div>
+                                <span class="stock-text">Restam apenas 3 unidades</span>
+                            </div>
+                        </div>
+                        <button class="flash-card__button" onclick="contactWhatsApp('iPhone 14 128GB - Oferta Flash R$ 3.224,00')">
+                            <i class="fab fa-whatsapp"></i>
+                            Comprar Agora
+                        </button>
+                    </div>
+
+                    <div class="flash-card">
+                        <div class="flash-card__badge">-30%</div>
+                        <div class="flash-card__image">
+                            <img src="https://via.placeholder.com/200x200/10B981/ffffff?text=Galaxy+S23" alt="Samsung Galaxy S23">
+                        </div>
+                        <div class="flash-card__content">
+                            <h3 class="flash-card__title">Galaxy S23 256GB</h3>
+                            <div class="flash-card__price">
+                                <span class="price__old">R$ 3.999,00</span>
+                                <span class="price__new">R$ 2.799,00</span>
+                            </div>
+                            <div class="flash-card__stock">
+                                <div class="stock-bar">
+                                    <div class="stock-bar__fill" style="width: 40%"></div>
+                                </div>
+                                <span class="stock-text">Restam apenas 2 unidades</span>
+                            </div>
+                        </div>
+                        <button class="flash-card__button" onclick="contactWhatsApp('Galaxy S23 256GB - Oferta Flash R$ 2.799,00')">
+                            <i class="fab fa-whatsapp"></i>
+                            Comprar Agora
+                        </button>
+                    </div>
+
+                    <div class="flash-card">
+                        <div class="flash-card__badge">-20%</div>
+                        <div class="flash-card__image">
+                            <img src="https://via.placeholder.com/200x200/F59E0B/ffffff?text=Xiaomi+13" alt="Xiaomi 13">
+                        </div>
+                        <div class="flash-card__content">
+                            <h3 class="flash-card__title">Xiaomi 13 Lite 256GB</h3>
+                            <div class="flash-card__price">
+                                <span class="price__old">R$ 2.499,00</span>
+                                <span class="price__new">R$ 1.999,00</span>
+                            </div>
+                            <div class="flash-card__stock">
+                                <div class="stock-bar">
+                                    <div class="stock-bar__fill" style="width: 85%"></div>
+                                </div>
+                                <span class="stock-text">Restam 5 unidades</span>
+                            </div>
+                        </div>
+                        <button class="flash-card__button" onclick="contactWhatsApp('Xiaomi 13 Lite 256GB - Oferta Flash R$ 1.999,00')">
+                            <i class="fab fa-whatsapp"></i>
+                            Comprar Agora
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories section">
+            <div class="container">
+                <h2 class="section__title">Escolha por Marca</h2>
+                <p class="section__subtitle">Encontre o smartphone perfeito da sua marca favorita</p>
+                
+                <div class="categories__grid">
+                    <div class="category-card" data-brand="apple">
+                        <div class="category-card__icon">
+                            <img src="https://via.placeholder.com/60x60/000000/ffffff?text=🍎" alt="Apple">
+                        </div>
+                        <h3 class="category-card__title">iPhone</h3>
+                        <p class="category-card__description">A partir de R$ 2.999</p>
+                        <p class="category-card__count">15+ modelos</p>
+                        <a href="apple.html" class="category-card__button">
+                            Ver iPhones
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="category-card" data-brand="samsung">
+                        <div class="category-card__icon">
+                            <img src="https://via.placeholder.com/60x60/1428A0/ffffff?text=S" alt="Samsung">
+                        </div>
+                        <h3 class="category-card__title">Samsung</h3>
+                        <p class="category-card__description">A partir de R$ 899</p>
+                        <p class="category-card__count">25+ modelos</p>
+                        <a href="samsung.html" class="category-card__button">
+                            Ver Galaxy
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="category-card" data-brand="xiaomi">
+                        <div class="category-card__icon">
+                            <img src="https://via.placeholder.com/60x60/FF6900/ffffff?text=Mi" alt="Xiaomi">
+                        </div>
+                        <h3 class="category-card__title">Xiaomi</h3>
+                        <p class="category-card__description">A partir de R$ 699</p>
+                        <p class="category-card__count">20+ modelos</p>
+                        <a href="xiaomi.html" class="category-card__button">
+                            Ver Xiaomi
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="category-card" data-brand="motorola">
+                        <div class="category-card__icon">
+                            <img src="https://via.placeholder.com/60x60/0066CC/ffffff?text=M" alt="Motorola">
+                        </div>
+                        <h3 class="category-card__title">Motorola</h3>
+                        <p class="category-card__description">A partir de R$ 599</p>
+                        <p class="category-card__count">18+ modelos</p>
+                        <a href="motorola.html" class="category-card__button">
+                            Ver Moto
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -101,45 +313,220 @@
         <section class="benefits section">
             <div class="container">
                 <h2 class="section__title">Por que escolher a Benalia Smart Fone?</h2>
-                <div class="benefits__container grid">
-                    <div class="benefits__card">
-                        <div class="benefits__icon">
-                            <i class="fas fa-certificate"></i>
-                        </div>
-                        <h3 class="benefits__title">Nota fiscal e garantia</h3>
-                        <p class="benefits__description">Produtos originais com nota fiscal e garantia do fabricante</p>
-                    </div>
-                    <div class="benefits__card">
-                        <div class="benefits__icon">
+                <div class="benefits__grid">
+                    <div class="benefit">
+                        <div class="benefit__icon">
                             <i class="fas fa-shipping-fast"></i>
                         </div>
-                        <h3 class="benefits__title">Entrega rápida</h3>
-                        <p class="benefits__description">Entrega rápida para todo o Brasil com frete calculado</p>
-                    </div>
-                    <div class="benefits__card">
-                        <div class="benefits__icon">
-                            <i class="fas fa-credit-card"></i>
+                        <div class="benefit__content">
+                            <h3 class="benefit__title">Entrega Express</h3>
+                            <p class="benefit__description">
+                                Ribeirão Preto: 24h<br>
+                                Demais cidades: 2-5 dias
+                            </p>
                         </div>
-                        <h3 class="benefits__title">PIX com desconto</h3>
-                        <p class="benefits__description">PIX com desconto e parcelamento no cartão de crédito</p>
                     </div>
-                    <div class="benefits__card">
-                        <div class="benefits__icon">
+                    
+                    <div class="benefit">
+                        <div class="benefit__icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="benefit__content">
+                            <h3 class="benefit__title">100% Original</h3>
+                            <p class="benefit__description">
+                                Produtos originais com<br>
+                                nota fiscal e garantia
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit">
+                        <div class="benefit__icon">
                             <i class="fab fa-whatsapp"></i>
                         </div>
-                        <h3 class="benefits__title">Suporte completo</h3>
-                        <p class="benefits__description">Atendimento antes e depois da compra pelo WhatsApp</p>
+                        <div class="benefit__content">
+                            <h3 class="benefit__title">Atendimento 24/7</h3>
+                            <p class="benefit__description">
+                                Suporte especializado<br>
+                                via WhatsApp
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit">
+                        <div class="benefit__icon">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <div class="benefit__content">
+                            <h3 class="benefit__title">Facilita o Pagamento</h3>
+                            <p class="benefit__description">
+                                PIX com desconto<br>
+                                Cartão em até 12x
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit">
+                        <div class="benefit__icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="benefit__content">
+                            <h3 class="benefit__title">Garantia Estendida</h3>
+                            <p class="benefit__description">
+                                Garantia do fabricante<br>
+                                + garantia da loja
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit">
+                        <div class="benefit__icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <div class="benefit__content">
+                            <h3 class="benefit__title">Troca Fácil</h3>
+                            <p class="benefit__description">
+                                7 dias para troca<br>
+                                sem complicação
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Featured Products -->
-        <section class="featured section" id="produtos">
+        <section class="featured-products section" id="produtos">
             <div class="container">
-                <h2 class="section__title">Destaques da Semana</h2>
-                <div class="products__container grid" id="featured-products">
-                    <!-- Products will be loaded via JavaScript -->
+                <div class="section-header">
+                    <h2 class="section__title">🔥 Mais Vendidos</h2>
+                    <p class="section__subtitle">Os smartphones que nossos clientes mais escolhem</p>
+                    
+                    <div class="filter-tabs">
+                        <button class="filter-tab active" data-filter="all">Todos</button>
+                        <button class="filter-tab" data-filter="iphone">iPhone</button>
+                        <button class="filter-tab" data-filter="samsung">Samsung</button>
+                        <button class="filter-tab" data-filter="xiaomi">Xiaomi</button>
+                        <button class="filter-tab" data-filter="motorola">Motorola</button>
+                    </div>
+                </div>
+
+                <div class="products__grid" id="products-grid">
+                    <!-- Os produtos serão carregados via JavaScript -->
+                </div>
+
+                <div class="section-footer">
+                    <a href="ofertas.html" class="button button--outline">
+                        Ver Todos os Produtos
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Proof Section -->
+        <section class="social-proof section">
+            <div class="container">
+                <div class="social-proof__stats">
+                    <div class="stat">
+                        <div class="stat__number">1000+</div>
+                        <div class="stat__label">Clientes Satisfeitos</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__number">4.9</div>
+                        <div class="stat__label">Avaliação Média</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__number">24h</div>
+                        <div class="stat__label">Entrega Express</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__number">2 Anos</div>
+                        <div class="stat__label">No Mercado</div>
+                    </div>
+                </div>
+                
+                <div class="testimonials">
+                    <h3 class="testimonials__title">O que nossos clientes dizem</h3>
+                    <div class="testimonials__grid">
+                        <div class="testimonial">
+                            <div class="testimonial__stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <blockquote class="testimonial__quote">
+                                "Comprei meu iPhone 14 e chegou super rápido! Atendimento excelente pelo WhatsApp e preço muito justo. Super recomendo!"
+                            </blockquote>
+                            <cite class="testimonial__author">
+                                <strong>Ana Carolina S.</strong>
+                                <span>Ribeirão Preto - SP</span>
+                            </cite>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="testimonial__stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <blockquote class="testimonial__quote">
+                                "Encontrei o Galaxy S23 com o melhor preço da região. Produto original, nota fiscal, tudo certinho. Parabéns pelo trabalho!"
+                            </blockquote>
+                            <cite class="testimonial__author">
+                                <strong>Lucas M.</strong>
+                                <span>Sertãozinho - SP</span>
+                            </cite>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="testimonial__stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <blockquote class="testimonial__quote">
+                                "Atendimento nota 10! Tirei todas as dúvidas pelo WhatsApp e o produto chegou exatamente como prometido. Muito profissionais."
+                            </blockquote>
+                            <cite class="testimonial__author">
+                                <strong>Renata L.</strong>
+                                <span>Franca - SP</span>
+                            </cite>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter section">
+            <div class="container">
+                <div class="newsletter__container">
+                    <div class="newsletter__content">
+                        <h3 class="newsletter__title">📱 Não perca as melhores ofertas!</h3>
+                        <p class="newsletter__description">
+                            Receba primeiro as promoções exclusivas, lançamentos e cupons de desconto direto no seu e-mail.
+                        </p>
+                    </div>
+                    <form class="newsletter__form" id="newsletter-form">
+                        <div class="newsletter__input-group">
+                            <input type="email" class="newsletter__input" placeholder="Seu melhor e-mail" required>
+                            <button type="submit" class="newsletter__button">
+                                <i class="fas fa-bell"></i>
+                                Quero Receber
+                            </button>
+                        </div>
+                        <p class="newsletter__privacy">
+                            <i class="fas fa-lock"></i>
+                            Seus dados estão seguros. Não fazemos spam.
+                        </p>
+                    </form>
                 </div>
             </div>
         </section>
